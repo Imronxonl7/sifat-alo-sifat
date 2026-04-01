@@ -7,7 +7,6 @@ import HomeHeroSlider from '@/components/home/HomeHeroSlider'
 import HomeLatestBlog from '@/components/home/HomeLatestBlog'
 import HomeNewArrials from '@/components/home/HomeNewArrials'
 import HomeTopMostProducts from '@/components/home/HomeTopMostProducts'
-import React from 'react'
 
 const HomePage = () => {
   return (

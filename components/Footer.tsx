@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Container className=''>
       <div>
-        
+        {/** Input your code */}
       </div>
     </Container>
   )
