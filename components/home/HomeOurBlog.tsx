@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 import HomeOurBlogCompanies from './HomeOurBlogCompanies'
+import HomeOurBlogSocial from './HomeOurBlogSocial'
 
 const HomeOurBlog = () => {
   return (
@@ -8,6 +9,7 @@ const HomeOurBlog = () => {
       <Container className="">
         <div>
             <HomeOurBlogCompanies/>
+            <HomeOurBlogSocial/>
         </div>
       </Container>
     </section>
