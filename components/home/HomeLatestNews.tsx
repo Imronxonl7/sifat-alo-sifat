@@ -1,14 +1,14 @@
 import React from 'react'
 import Container from '../Container'
 
-const HomeDayOfTheDeal = () => {
+const HomeLatestNews = () => {
   return (
     <Container className=''>
       <div>
-        
+        {/** Input your code */}
       </div>
     </Container>
   )
 }
 
-export default HomeDayOfTheDeal
+export default HomeLatestNews

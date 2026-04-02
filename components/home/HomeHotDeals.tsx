@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 
-const HomeNewArrials = () => {
+const HomeHotDeals = () => {
   return (
     <Container className=''>
       <div>
@@ -11,4 +11,4 @@ const HomeNewArrials = () => {
   )
 }
 
-export default HomeNewArrials
+export default HomeHotDeals

@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 
-const HomeAboutCards = () => {
+const HomeFeaturedProducts = () => {
   return (
     <Container className=''>
       <div>
@@ -11,4 +11,4 @@ const HomeAboutCards = () => {
   )
 }
 
-export default HomeAboutCards
+export default HomeFeaturedProducts

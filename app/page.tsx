@@ -1,25 +1,29 @@
-import HomeAboutCards from '@/components/home/HomeAboutCards'
-import HomeCategories from '@/components/home/HomeCategories'
-import HomeDayOfTheDeal from '@/components/home/HomeDayOfTheDeal'
+import HomeAbout from '@/components/home/HomeAbout'
 import HomeDiscountProducts from '@/components/home/HomeDiscountProducts'
-import HomeFreshFruits from '@/components/home/HomeFreshFruits'
-import HomeHeroSlider from '@/components/home/HomeHeroSlider'
-import HomeLatestBlog from '@/components/home/HomeLatestBlog'
-import HomeNewArrials from '@/components/home/HomeNewArrials'
-import HomeTopMostProducts from '@/components/home/HomeTopMostProducts'
+import HomeHero  from '@/components/home/HomeHero'
+import HomePopularCategories from '@/components/home/HomePopularCategories'
+import HomePopularProducts from '@/components/home/HomePopularProducts'
+import HomeHotDeals from '@/components/home/HomeHotDeals'
+import HomeSummerSale from '@/components/home/HomeSummerSale'
+import HomeFeaturedProducts from '@/components/home/HomeFeaturedProducts'
+import HomeLatestNews from '@/components/home/HomeLatestNews'
+import HomeComments from '@/components/home/HomeComments'
+import HomeOurBlog from '@/components/home/HomeOurBlog'
 
 const HomePage = () => {
   return (
     <section>
-      <HomeHeroSlider/>
-      <HomeCategories/>
-      <HomeDayOfTheDeal/>
-      <HomeFreshFruits/>
-      <HomeNewArrials/>
+      <HomeHero/>
+      <HomeAbout/>
+      <HomePopularCategories/>
+      <HomePopularProducts/>
       <HomeDiscountProducts/>
-      <HomeAboutCards/>
-      <HomeTopMostProducts/>
-      <HomeLatestBlog/>
+      <HomeHotDeals/>
+      <HomeSummerSale/>
+      <HomeFeaturedProducts/>
+      <HomeLatestNews/>
+      <HomeComments/>
+      <HomeOurBlog/>
     </section>
   )
 }
