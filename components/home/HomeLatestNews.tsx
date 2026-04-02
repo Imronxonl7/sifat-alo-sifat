@@ -1,14 +1,14 @@
-import React from 'react'
-import Container from '../Container'
+import React from "react";
+import Container from "../Container";
 
 const HomeLatestNews = () => {
   return (
-    <Container className=''>
-      <div>
-        {/** Input your code */}
-      </div>
-    </Container>
-  )
-}
+    <section>
+      <Container className="">
+        <div>{/** Input your code */}</div>
+      </Container>
+    </section>
+  );
+};
 
-export default HomeLatestNews
+export default HomeLatestNews;

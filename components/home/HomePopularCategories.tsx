@@ -1,14 +1,14 @@
-import React from 'react'
-import Container from '../Container'
+import React from "react";
+import Container from "../Container";
 
 const HomePopularCategories = () => {
   return (
-    <Container className=''>
-      <div>
-        
-      </div>
-    </Container>
-  )
-}
+    <section>
+      <Container className="">
+        <div></div>
+      </Container>
+    </section>
+  );
+};
 
-export default HomePopularCategories
+export default HomePopularCategories;
