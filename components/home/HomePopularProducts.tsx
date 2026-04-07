@@ -131,7 +131,7 @@ const HomePopularProducts = async () => {
                     </span>
                   )}
 
-                  <div className="relative flex h-[120px] sm:h-[150px] md:h-[170px] lg:h-[190px] items-center justify-center overflow-hidden bg-[#f8f8f8]">
+                  <div className="relative flex h-30 sm:h-37.5 md:h-42.5 lg:h-47.5 items-center justify-center overflow-hidden bg-[#f8f8f8]">
                     <img
                       src={product.image}
                       alt={product.name}
